@@ -2,11 +2,12 @@
 
 ###
 
-<h2 align="left">my name Roshni tiwari,a passionate Data Science Enthusiast 🚀</h2>
+<h2 align="left">my name Roshni tiwari,a passionate Data Science Enthusiast </h2>
 
 ###
  
-<h6 align="left">About me  I'ma passionate Data Science Enthusiast  with skills in Python, SQL, Power BI, Tableau, and Machine Learning Algorithms. I love working with data, solving real-world problems, and building predictive models.<br><br>🎓 Education: BCA Graduate | Data Science Certificate from ExcelR<br>  Interests: Data Science, Machine Learning, AI, Data Visualization<br>💡 Projects: Worked on "Predict Liver Diseases" and other ML projects<br>💻 Learning: Exploring Machine Learning Algorithms & SQL<br>🚀 Goal: To become a Data Scientist and work on impactful AI projects</h6>
+<h6 align="left">About me  I'ma passionate Data Science Enthusiast  with skills in Python, SQL, Power BI, Tableau, and Machine Learning Algorithms. I love working with data, solving real-world problems, and building predictive models.<br><br> Education: BCA Graduate with (2021–2024) <br> MCA — Amity University Online (2025–2027)<br>
+| Data Science Certificate from ExcelR<br>  Interests: Data Science, Machine Learning, AI, Data Visualization<br> Projects: Worked on "Predict Liver Diseases" and other ML projects<br> Learning: Exploring Machine Learning Algorithms & SQL<br> Goal: To become a Data Scientist and work on impactful AI projects</h6>
 
 ###
 

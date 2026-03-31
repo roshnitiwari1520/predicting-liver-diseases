@@ -1,32 +1,38 @@
-<h1 align="left">Hey What's up?</h1>
+# Liver Disease Prediction Model
 
-###
+## Problem Statement
+Liver disease affects millions globally and is often diagnosed late. 
+This project builds a machine learning model to predict liver disease 
+from patient medical data, enabling early detection.
 
-<h2 align="left">my name Roshni tiwari,a passionate Data Science Enthusiast </h2>
+## Dataset
+- Source: [ILPD Dataset - UCI Machine Learning Repository]
+- 583 patient records, 10 features
+- Target: Binary classification (liver disease / no disease)
 
-###
- 
-<h6 align="left">About me  I'ma passionate Data Science Enthusiast  with skills in Python, SQL, Power BI, Tableau, and Machine Learning Algorithms. I love working with data, solving real-world problems, and building predictive models.<br><br> Education: BCA Graduate with (2021–2024) <br> MCA — Amity University Online (2025–2027)<br>
-| Data Science Certificate from ExcelR<br>  Interests: Data Science, Machine Learning, AI, Data Visualization<br> Projects: Worked on "Predict Liver Diseases" and other ML projects<br> Learning: Exploring Machine Learning Algorithms & SQL<br> Goal: To become a Data Scientist and work on impactful AI projects</h6>
+## Approach
+1. Exploratory Data Analysis — identified class imbalance, outliers
+2. Preprocessing — handled missing values, scaled features
+3. Model Building — compared Logistic Regression vs Random Forest
+4. Evaluation — selected Random Forest based on F1 score
 
-###
+## Results
+| Model | Accuracy | F1 Score |
+|-------|----------|----------|
+| Logistic Regression | 71% | 0.68 |
+| Random Forest | 85% | 0.83 |
 
-<p align="left"> About the Project<br>Predict Liver Disease is a machine learning classification project designed to assist in the early detection of liver diseases based on medical test results. The model predicts whether a patient falls into one of five categories:<br><br> No Disease <br> Suspect Disease<br> Hepatitis C<br>  Fibrosis<br> Cirrhosis<br><br>Liver diseases can be challenging to diagnose early, and delayed detection can lead to severe health complications. This project leverages Supervised Learning algorithms to provide a fast and data-driven approach to predicting liver conditions based on blood and urine test indicators.</p>
+## Key Findings
+- Age and gender are strong predictors
+- Albumin and protein levels are the most important features
+- Class imbalance was the biggest challenge
 
-###
+## Tech Stack
+Python, Pandas, Scikit-learn, Matplotlib, Seaborn
 
-<h2 align="left">I code with</h2>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" height="40" alt="rstudio logo"  />
-</div>
-
-###
+## How to Run
+```bash
+git clone https://github.com/roshnitiwari1520/predicting-liver-diseases
+pip install -r requirements.txt
+jupyter notebook liver_disease_prediction.ipynb
+```
